@@ -193,7 +193,6 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D93F1CAC1EAEDB6E009A7474 /* Build configuration list for PBXNativeTarget "RxPhotos" */;
 			buildPhases = (
-				11C0AB480A3DBDA737BF1482 /* [CP] Check Pods Manifest.lock */,
 				DD8E2E6A2070FAD7008A5AC2 /* SwiftLint */,
 				D93F1C931EAEDB6E009A7474 /* Sources */,
 				D93F1C941EAEDB6E009A7474 /* Frameworks */,
@@ -289,25 +288,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		11C0AB480A3DBDA737BF1482 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${SRCROOT}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-RxPhotos-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "gs
-";
-			showEnvVarsInLog = 0;
-		};
 		2C7A351791915626EAB70C1C /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
