@@ -48,29 +48,6 @@ PHPhotoLibrary.shared().rx.performChanges({ /**/ })
 
 ## Installation
 
-### CocoaPods
-
-[CocoaPods](http://cocoapods.org) is a dependency manager for Cocoa projects. You can install it with the following command:
-
-```bash
-$ gem install cocoapods
-```
-
-To integrate RxPhotos into your Xcode project using CocoaPods, specify it in your `Podfile`:
-
-```ruby
-use_frameworks!
-
-pod 'RxPhotos'
-```
-
-Then, run the following command:
-
-```bash
-$ pod install
-```
-
-
 ### Carthage
 
 [Carthage](https://github.com/Carthage/Carthage) is a decentralized dependency manager that builds your dependencies and provides you with binary frameworks.
