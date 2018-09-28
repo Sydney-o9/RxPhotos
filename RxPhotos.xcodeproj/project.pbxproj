@@ -204,12 +204,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D93F1CAF1EAEDB6E009A7474 /* Build configuration list for PBXNativeTarget "RxPhotosTests" */;
 			buildPhases = (
-				DBE594FA507EF38472DBECBB /* [CP] Check Pods Manifest.lock */,
 				D93F1C9D1EAEDB6E009A7474 /* Sources */,
 				D93F1C9E1EAEDB6E009A7474 /* Frameworks */,
 				D93F1C9F1EAEDB6E009A7474 /* Resources */,
-				2C7A351791915626EAB70C1C /* [CP] Embed Pods Frameworks */,
-				AF23777EEE4B58C64CED1BB4 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -279,24 +276,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		2C7A351791915626EAB70C1C /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-RxPhotosTests/Pods-RxPhotosTests-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RxPhotosTests/Pods-RxPhotosTests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		3EA6BD70215DC86600098662 /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -311,40 +290,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "/usr/local/bin/carthage copy-frameworks";
-		};
-		AF23777EEE4B58C64CED1BB4 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RxPhotosTests/Pods-RxPhotosTests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		DBE594FA507EF38472DBECBB /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-RxPhotosTests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
+			shellScript = "";
 		};
 /* End PBXShellScriptBuildPhase section */
 
