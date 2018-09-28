@@ -12,7 +12,3 @@ target 'RxPhotos' do
   end
 
 end
-
-target 'iOS Example' do
-  pod 'RxSwift'
-end

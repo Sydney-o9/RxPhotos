@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4964B0C7DE81C3F15E5385E7 /* Pods_RxPhotos.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FED1BA971B8C43E9F48644B /* Pods_RxPhotos.framework */; };
+		A23DC6042A887E08F826348F /* Pods_RxPhotos.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FED1BA971B8C43E9F48644B /* Pods_RxPhotos.framework */; };
 		CA2DA41B1825ED6D7D7A42C5 /* Pods_RxPhotosTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B49B9FC965DEAB1AA752F01 /* Pods_RxPhotosTests.framework */; };
 		D93F1CA21EAEDB6E009A7474 /* RxPhotos.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D93F1C981EAEDB6E009A7474 /* RxPhotos.framework */; };
 		D93F1CA71EAEDB6E009A7474 /* RxPhotosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D93F1CA61EAEDB6E009A7474 /* RxPhotosTests.swift */; };
@@ -74,7 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4964B0C7DE81C3F15E5385E7 /* Pods_RxPhotos.framework in Frameworks */,
+				A23DC6042A887E08F826348F /* Pods_RxPhotos.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
