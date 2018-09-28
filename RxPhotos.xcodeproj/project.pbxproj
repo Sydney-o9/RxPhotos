@@ -7,7 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		A23DC6042A887E08F826348F /* Pods_RxPhotos.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FED1BA971B8C43E9F48644B /* Pods_RxPhotos.framework */; };
+		3EA6BD6D215DC82B00098662 /* RxCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3EA6BD6A215DC82B00098662 /* RxCocoa.framework */; };
+		3EA6BD6E215DC82B00098662 /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3EA6BD6B215DC82B00098662 /* RxSwift.framework */; };
+		3EA6BD6F215DC82B00098662 /* RxBlocking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3EA6BD6C215DC82B00098662 /* RxBlocking.framework */; };
 		D93F1CA21EAEDB6E009A7474 /* RxPhotos.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D93F1C981EAEDB6E009A7474 /* RxPhotos.framework */; };
 		D93F1CA71EAEDB6E009A7474 /* RxPhotosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D93F1CA61EAEDB6E009A7474 /* RxPhotosTests.swift */; };
 		D93F1CA91EAEDB6E009A7474 /* RxPhotos.h in Headers */ = {isa = PBXBuildFile; fileRef = D93F1C9B1EAEDB6E009A7474 /* RxPhotos.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -39,10 +41,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		22233396156713BE5A181A86 /* Pods-RxPhotosTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxPhotosTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RxPhotosTests/Pods-RxPhotosTests.debug.xcconfig"; sourceTree = "<group>"; };
-		3FED1BA971B8C43E9F48644B /* Pods_RxPhotos.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RxPhotos.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		97606ABDFCEAB6B4C1F3AE6F /* Pods-RxPhotosTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxPhotosTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-RxPhotosTests/Pods-RxPhotosTests.release.xcconfig"; sourceTree = "<group>"; };
-		9A61EE4C0F3E8CBBE9DEC72F /* Pods-RxPhotos.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxPhotos.release.xcconfig"; path = "Pods/Target Support Files/Pods-RxPhotos/Pods-RxPhotos.release.xcconfig"; sourceTree = "<group>"; };
+		3EA6BD6A215DC82B00098662 /* RxCocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxCocoa.framework; path = Carthage/Build/iOS/RxCocoa.framework; sourceTree = "<group>"; };
+		3EA6BD6B215DC82B00098662 /* RxSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxSwift.framework; path = Carthage/Build/iOS/RxSwift.framework; sourceTree = "<group>"; };
+		3EA6BD6C215DC82B00098662 /* RxBlocking.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxBlocking.framework; path = Carthage/Build/iOS/RxBlocking.framework; sourceTree = "<group>"; };
 		D93F1C981EAEDB6E009A7474 /* RxPhotos.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RxPhotos.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D93F1C9B1EAEDB6E009A7474 /* RxPhotos.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RxPhotos.h; sourceTree = "<group>"; };
 		D93F1C9C1EAEDB6E009A7474 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -64,7 +65,6 @@
 		DDC0E78F207135FA0051A0DB /* PHLivePhoto+Rx.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PHLivePhoto+Rx.swift"; sourceTree = "<group>"; };
 		DDC0E791207137F40051A0DB /* PHLivePhotoEditingContext+Rx.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PHLivePhotoEditingContext+Rx.swift"; sourceTree = "<group>"; };
 		DDC0E793207139AC0051A0DB /* PHAssetResourceManager+Rx.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PHAssetResourceManager+Rx.swift"; sourceTree = "<group>"; };
-		ED984F529D5365D409CD1C24 /* Pods-RxPhotos.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxPhotos.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RxPhotos/Pods-RxPhotos.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,7 +72,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A23DC6042A887E08F826348F /* Pods_RxPhotos.framework in Frameworks */,
+				3EA6BD6D215DC82B00098662 /* RxCocoa.framework in Frameworks */,
+				3EA6BD6E215DC82B00098662 /* RxSwift.framework in Frameworks */,
+				3EA6BD6F215DC82B00098662 /* RxBlocking.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -90,7 +92,9 @@
 		CD79CBCAD0AA1AE2EEEC79CA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				3FED1BA971B8C43E9F48644B /* Pods_RxPhotos.framework */,
+				3EA6BD6C215DC82B00098662 /* RxBlocking.framework */,
+				3EA6BD6A215DC82B00098662 /* RxCocoa.framework */,
+				3EA6BD6B215DC82B00098662 /* RxSwift.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -101,7 +105,6 @@
 				D93F1C9A1EAEDB6E009A7474 /* Source */,
 				D93F1CA51EAEDB6E009A7474 /* Tests */,
 				D93F1C991EAEDB6E009A7474 /* Products */,
-				E9F560222B695140902F2413 /* Pods */,
 				CD79CBCAD0AA1AE2EEEC79CA /* Frameworks */,
 			);
 			sourceTree = "<group>";
@@ -164,17 +167,6 @@
 			path = Extensions;
 			sourceTree = "<group>";
 		};
-		E9F560222B695140902F2413 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				ED984F529D5365D409CD1C24 /* Pods-RxPhotos.debug.xcconfig */,
-				9A61EE4C0F3E8CBBE9DEC72F /* Pods-RxPhotos.release.xcconfig */,
-				22233396156713BE5A181A86 /* Pods-RxPhotosTests.debug.xcconfig */,
-				97606ABDFCEAB6B4C1F3AE6F /* Pods-RxPhotosTests.release.xcconfig */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -193,12 +185,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D93F1CAC1EAEDB6E009A7474 /* Build configuration list for PBXNativeTarget "RxPhotos" */;
 			buildPhases = (
-				DD8E2E6A2070FAD7008A5AC2 /* SwiftLint */,
 				D93F1C931EAEDB6E009A7474 /* Sources */,
 				D93F1C941EAEDB6E009A7474 /* Frameworks */,
 				D93F1C951EAEDB6E009A7474 /* Headers */,
 				D93F1C961EAEDB6E009A7474 /* Resources */,
-				C4B86CD657ADA1DB4C8E511A /* [CP] Copy Pods Resources */,
+				3EA6BD70215DC86600098662 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -306,6 +297,22 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RxPhotosTests/Pods-RxPhotosTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
+		3EA6BD70215DC86600098662 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/iOS/RxCocoa.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/RxSwift.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/RxBlocking.framework",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/carthage copy-frameworks";
+		};
 		AF23777EEE4B58C64CED1BB4 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -319,21 +326,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RxPhotosTests/Pods-RxPhotosTests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		C4B86CD657ADA1DB4C8E511A /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RxPhotos/Pods-RxPhotos-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		DBE594FA507EF38472DBECBB /* [CP] Check Pods Manifest.lock */ = {
@@ -353,20 +345,6 @@
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
-		};
-		DD8E2E6A2070FAD7008A5AC2 /* SwiftLint */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = SwiftLint;
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/SwiftLint/swiftlint\"";
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -533,7 +511,6 @@
 		};
 		D93F1CAD1EAEDB6E009A7474 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = ED984F529D5365D409CD1C24 /* Pods-RxPhotos.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
@@ -542,6 +519,10 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = Source/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
@@ -557,7 +538,6 @@
 		};
 		D93F1CAE1EAEDB6E009A7474 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9A61EE4C0F3E8CBBE9DEC72F /* Pods-RxPhotos.release.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
@@ -566,6 +546,10 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = Source/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
@@ -580,7 +564,6 @@
 		};
 		D93F1CB01EAEDB6E009A7474 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 22233396156713BE5A181A86 /* Pods-RxPhotosTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = "";
@@ -595,7 +578,6 @@
 		};
 		D93F1CB11EAEDB6E009A7474 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 97606ABDFCEAB6B4C1F3AE6F /* Pods-RxPhotosTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = "";
