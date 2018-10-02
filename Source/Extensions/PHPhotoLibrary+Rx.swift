@@ -47,4 +47,41 @@ extension Reactive where Base: PHPhotoLibrary {
             }
         }
     }
+
+    // MARK: -
+
+    /// Save image to Photos.
+    ///
+    ///     let disposeBag = DisposeBag()
+    ///     PHPhotoLibrary.shared().rx.save(img)
+    ///         .subscribe(onSuccess: { (success) in
+    ///             print(success)
+    ///         }) { (error) in
+    ///             print(error)
+    ///         }
+    ///         .disposed(by: disposeBag)
+    ///
+    /// - Parameter image: The image to save
+    ///
+    /// - Returns: An observable whose Element contain the local identifier of
+    ///            the image saved if successful
+    public func save(_ image: UIImage) -> Single<String> {
+        return Single.create { [weak base] single in
+
+            var savedImageIdentifier: String?
+            base?.performChanges({
+                let request = PHAssetChangeRequest.creationRequestForAsset(from: image)
+                savedImageIdentifier = request.placeholderForCreatedAsset?.localIdentifier
+            }, completionHandler: { (success, error) in
+                if success, let id = savedImageIdentifier {
+                    single(.success(id))
+                } else if let error = error {
+                    single(.error(error))
+                }
+            })
+
+            return Disposables.create()
+        }
+    }
+
 }
